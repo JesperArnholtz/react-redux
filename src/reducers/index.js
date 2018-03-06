@@ -1,8 +1,10 @@
 import {combineReducers} from 'redux';
 import courseReducer from './course-reducer';
+import authorReducer from './author-reducer';
 
 const rootReducer =  combineReducers({
-    courseReducer
+    courseReducer,
+    authorReducer    
 });
 
 export default rootReducer;
